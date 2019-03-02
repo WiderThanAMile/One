@@ -5,7 +5,7 @@ def classify(features_train, labels_train):
     # fit the classifier on the training features and labels
     # return the fit classifier
 
-    # your code goes here!
+    # code goes here!
     clf = GaussianNB()
     clf.fit(features_train, labels_train)
     # pred = clf.predict(features_train)
