@@ -9,4 +9,5 @@ print(clf.predict([[-0.8, -1]]))
 clf_pf = GaussianNB()
 clf_pf.partial_fit(X, Y, np.unique(Y))
 GaussianNB(priors=None, var_smoothing=1e-09)
+
 print(clf_pf.predict([[-0.8, -1]]))
