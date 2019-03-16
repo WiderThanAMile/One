@@ -130,6 +130,7 @@ gan.compile(optimizer=Adam(0.0002, 0.5), loss='binary_crossentropy')
 
 BATCH_SIZE = 16
 
+
 # # Get training images
 (X_train, y_train), (X_test, _) = cifar10.load_data()
 
