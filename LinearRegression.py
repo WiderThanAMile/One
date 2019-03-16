@@ -1,7 +1,6 @@
 # from https://towardsdatascience.com/linear-regression-the-easier-way-6f941aa471ea
 # also https://github.com/Sagarsharma4244/Linear-Regression-Sklearn-Python
 
-
 import pandas as pd
 import pprint
 from sklearn.datasets import load_boston
