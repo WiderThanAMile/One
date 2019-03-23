@@ -12,6 +12,7 @@ boston = datasets.load_boston()
 print(boston)
 y = boston.target
 
+# cross_val_predict with 10-fold cross validation (cv)
 predicted = cross_val_predict(model, boston.data, y, cv=10)
 
 fig, ax = plt.subplots()
